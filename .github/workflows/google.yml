@@ -19,7 +19,7 @@ env:
   GKE_CLUSTER: hello-workflow-cluster    # TODO: update to cluster name
   GKE_ZONE: us-central1-b   # TODO: update to cluster zone
   DEPLOYMENT_NAME: gke-test5 # TODO: update to deployment name
-  IMAGE: static-site5
+  IMAGE: static-site6
 
 jobs:
   setup-build-publish-deploy:
