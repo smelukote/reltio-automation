@@ -12,9 +12,7 @@
 
 name: Build and Deploy to GKE
 
-on:
-  release:
-    types: [created]
+on: [push, pull_request]
 
 env:
   PROJECT_ID: ${{ secrets.GKE_PROJECT }}
