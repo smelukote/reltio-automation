@@ -114,4 +114,4 @@ For pushes to the `master` branch, this workflow will:
 [sdk]: https://cloud.google.com/sdk
 [secrets]: https://help.github.com/en/actions/automating-your-workflow-with-github-actions/creating-and-using-encrypted-secrets
 [roles]: https://cloud.google.com/iam/docs/granting-roles-to-service-accounts#granting_access_to_a_service_account_for_a_resource
-# reltio-gke-with-cloufbuild
+
