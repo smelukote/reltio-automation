@@ -15,12 +15,12 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: gke-test2
+  name: gke-test5
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: gke-test2
+      app: gke-test5
   strategy:
     rollingUpdate:
       maxSurge: 1
@@ -29,13 +29,13 @@ spec:
   template:
     metadata:
       labels:
-        app: gke-test2
+        app: gke-test5
     spec:
       containers:
-      - name: gke-test2
+      - name: gke-test5
         image: gcr.io/PROJECT_ID/IMAGE:TAG
         ports:
-        - containerPort: 5002
+        - containerPort: 5005
         resources:
           requests:
             cpu: 100m
